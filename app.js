@@ -32,7 +32,6 @@ app.use(express.static("./public"));
 app.use(express.json());
 
 app.use('/' , (req ,res)=>{
-
   res.send("TASK MANGER API")
 })
 //routes

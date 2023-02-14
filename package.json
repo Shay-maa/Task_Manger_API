@@ -15,12 +15,6 @@
     "mongoose": "^6.8.0",
     "node": "^v16.19.0",
     "nodemon": "^2.0.20",
-    "swagger": "^0.7.5",
-    "swagger-jsdoc": "^6.2.5",
-    "swagger-ui-express": "^4.6.0",
     "xss-clean": "^0.1.1"
-  },
-  "devDependencies": {
-    "prettier": "2.8.1"
   }
 }
