@@ -31,6 +31,10 @@ app.use(xss())
 app.use(express.static("./public"));
 app.use(express.json());
 
+app.use('/' , (req ,res)=>{
+
+  res.send("TASK MANGER API")
+})
 //routes
 
 app.use("/api/v1/tasks", tasks);
