@@ -13,7 +13,7 @@
     "joi": "^13.1.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.8.0",
-    "node": "^v16.19.0",
+    "node": "^16.19.0",
     "nodemon": "^2.0.20",
     "xss-clean": "^0.1.1"
   }
