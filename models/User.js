@@ -19,19 +19,10 @@ const UserSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    required: [true, "Please Provid Your Password"],
+    required: [true, "Please Provide Your Password"],
     minlength: 6,
   },
-  phone: {
-    type: String,
-    required: [true, "Please Enter Your Phone number"],
-    unique: [true, "This Phone Already Exist"],
-  },
-  gender: {
-    type: String,
-    // required: true
-    enum: ["male", "female"],
-  },
+ 
 });
 
 UserSchema.pre("save", async function () {
